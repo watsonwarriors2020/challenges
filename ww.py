@@ -2,7 +2,7 @@ import requests, json
 
 class WatsonWarriors:
     def __init__(self):
-        self.host = "https://ww-local-dev.ngrok.io";
+        self.host = "https://api.watsonwarriors.ai/workers/";
         self.answerDict = {};
 
     def token(self, token):
@@ -18,6 +18,12 @@ class WatsonWarriors:
 
     def step(self,index):
         self.answerDict[index] = 'complete';
+
+    def assertStatement(self,index, boolean):
+        answer = "false"
+        if(boolean):
+            answer = "true"
+        self.answerDict[index] = answer;
 
     def answer(self,index,value):
         self.answerDict[index] = value;
