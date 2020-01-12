@@ -2,7 +2,7 @@ import requests, json
 
 class WatsonWarriors:
     def __init__(self):
-        self.host = "https://api.watsonwarriors.ai/workers/";
+        self.host = "https://api.watsonwarriors.ai/workers";
         self.answerDict = {};
 
     def token(self, token):
