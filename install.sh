@@ -11,3 +11,5 @@ for file in "${files[@]}"
 do
     wget -N --quiet --show-progress $repo$file
 done
+
+echo "\nFinished. Please return to the Watson Warriors dashboard and proceed with the current challenge. \n"
