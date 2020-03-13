@@ -14,3 +14,5 @@ do
 done
 
 printf "\nFinished.\nPlease return to the Watson Warriors dashboard and proceed with the current challenge. \n\n"
+
+rm ./ww.txt
