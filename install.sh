@@ -2,7 +2,7 @@
 repo="https://raw.githubusercontent.com/watsonwarriors2020/challenges/master/"
 wget --quiet $repo"ww.txt"
 
-files=( "ww.py" "Challenge%201%20-%20Enter%20Watson.ipynb" )
+files=( "ww.py" "Challenge 9 - Step it UP (py) v2.ipynb" "Challenge 7 Fight Fire with Data (PY) v2.ipynb" "Challenge 6 - Where There is Smoke TF Ke.ipynb" "fire_weather_speed_dis.csv" )
 
 cat ./ww.txt
 
