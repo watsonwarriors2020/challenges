@@ -2,7 +2,7 @@
 repo="https://raw.githubusercontent.com/watsonwarriors2020/challenges/master/"
 wget --quiet $repo"ww.txt"
 
-files=( "ww.py" "Challenge 9 - Step it UP (py) v2.ipynb" "Challenge 7 Fight Fire with Data (PY) v2.ipynb" "Challenge 6 - Where There is Smoke TF Ke.ipynb" "fire_weather_speed_dis.csv" )
+files=( "ww.py" "Challenge%209%20-%20Step%20it%20UP%20(py)%20v2.ipynb" "Challenge%207%20Fight%20Fire%20with%20Data%20(PY)%20v2.ipynb" "Challenge%206%20-%20Where%20There%20is%20Smoke%20TF%20Ke.ipynb" "fire_weather_speed_dis.csv" )
 
 cat ./ww.txt
 
@@ -10,6 +10,7 @@ printf "\nFetching Watson Warriors dependencies...\n\n"
 
 for file in "${files[@]}"
 do
+    echo 
     wget -N --quiet --show-progress $repo$file
 done
 
